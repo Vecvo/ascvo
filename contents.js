@@ -182,11 +182,11 @@ function displayToc(filter) {
 // this function creates a three-column table and adds it to the screen
    var numDisplayed = 0;
    var tocTable = '';
-   var tocHead1 = 'JUDUL ARTIKEL';
+   var tocHead1 = 'TITLE';
    var tocTool1 = 'Click to sort by title';
    var tocHead2 = 'DATE';
    var tocTool2 = 'Click to sort by date';
-   var tocHead3 = 'KATEGORI';
+   var tocHead3 = 'CATEGORY';
    var tocTool3 = '';
    if (sortBy == "titleasc") { 
       tocTool1 += ' (descending)';
